@@ -1,5 +1,6 @@
 import React from 'react';
 import sidetoggle from '../../assets/images/sidebar toggle.png';
+import TextArea from './textarea';
 
 const LandingPage = () => {
 
@@ -34,7 +35,7 @@ const LandingPage = () => {
 
 {/*content*/}
 
-        <div className='w-full md:w-4/5 md:order-1'>
+        <div className='w-full md:w-4/5 md:order-1 z-5'>
 
            <div className='grid grid-cols-1 w-full'>
 
@@ -80,6 +81,7 @@ const LandingPage = () => {
             </div>
 
            </div>
+           <TextArea/>
 
         </div>
 
